@@ -12,3 +12,4 @@ find ~/output_folder/ -name '*.png' | parallel 'convert {.}.png {.}.jpg && rm {}
 ```
 Splits common for monocular training: [Zhou's subset](https://github.com/tinghuiz/SfMLearner)
 
+Official documentation link: http://www.cvlibs.net/publications/Geiger2013IJRR.pdf
